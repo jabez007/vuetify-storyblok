@@ -1,4 +1,5 @@
 # vuetify-storyblok
+https://www.storyblok.com/tp/add-a-headless-CMS-to-vuejs-in-5-minutes
 
 ## Project setup
 ```
