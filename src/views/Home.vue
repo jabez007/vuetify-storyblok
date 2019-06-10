@@ -1,13 +1,11 @@
 <template>
-  <HelloWorld />
+  <v-container fluid fill-height>
+    <component :blok="story.content" :is="story.content.component"></component>
+  </v-container>
 </template>
 
 <script>
-import HelloWorld from '../components/HelloWorld.vue';
-
 export default {
-  components: {
-    HelloWorld,
-  },
+  name: 'Storyblok-home',
 };
 </script>
